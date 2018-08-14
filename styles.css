@@ -167,7 +167,7 @@ footer img {
 	justify-content: space-around;
 	align-items: center;
 	width: 80%;
-	max-width: 700px;
+	max-width: 900px;
 	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -179,11 +179,21 @@ footer img {
 }
 
 .middle img {
-	max-width: 10em;
+	max-width: 12em;
 	width: 100%;
 	background-color: white;
 	margin: 1em;
 }
+
+.middle h1{
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 2em;
+	color: rgba(38,166,223,1);
+	text-align: center;
+	margin: 3em;
+	padding: 1em;
+}
+
 
 .contact {
 	background-color: white;
@@ -472,6 +482,10 @@ footer img {
 	color: rgba(228,229,29,1);
 }
 
+.middle h1{
+	font-size: 1.5em;
+	margin: .5em;
+}
 	
 }
 
