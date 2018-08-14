@@ -368,22 +368,112 @@ footer img {
 	width: 100%
 }
 
-/* 
-@media only screen and (max-width: 998px) {
-	
-	h2 {
-		font-size: 1em;
-	}
-	
-	header h1 {
-		font-size: 1em;
-	}
-	
-	.historycontent p {
-		font-size: .8em;
-	}
+.resume {
+	background-color: white;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 100%;
+	max-width: 1000px;
 }
- */
+
+.resume div {
+	margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resume img {
+	max-width: 1000px;
+	width: 100%;
+	border: 1px solid gray;
+	box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+header img {
+	width: 100%
+	max-width: 10em;
+
+}
+
+.top {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav ul {
+	text-align: center;
+	font-size: .85em;
+	margin: auto;
+	margin-bottom: 1em;
+	width: 100%;
+	max-width: 300px;
+	padding: 0;
+}
+
+footer {
+	align-items: center;
+}
+	
+
+footer img {
+	position: center;
+	width: 100%;
+	max-width: 5em;
+}	
+	
+
+.social {
+	width: 100%;
+	max-width: 1.5em;
+	margin: 1em;
+}
+
+.details {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.details div {
+	margin: 1em;
+}
+
+.details p {
+	text-align: center;
+	line-height: 2;
+}
+
+
+.title h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 1em;
+}
+
+.title a {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(235,123,63,1);
+	text-align: left;
+	margin: 2em;
+	margin-top: 1em;
+}
+
+.title a:active	 {
+	color: rgba(228,229,29,1);
+}
+
+	
+}
 
 
 
