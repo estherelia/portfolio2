@@ -230,6 +230,17 @@ footer img {
 	line-height: 1.6;
 }
 
+.contact a {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(38,166,223,1);
+	text-align: left;
+}
+
+.contact a:hover {
+	color: rgba(227,165,203,1);
+}
+
 .about {
 	background-color: white;
 	display: flex;
